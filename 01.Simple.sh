@@ -1,2 +1,4 @@
-ls
-pwd
+#ls
+#pwd
+
+echo "hello world"
