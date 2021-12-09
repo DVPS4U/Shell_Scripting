@@ -1,5 +1,5 @@
 #ls
 #pwd
+a=100
 
-echo hello
-echo "hello world"
+echo a=$${a}
