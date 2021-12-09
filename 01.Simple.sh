@@ -1,2 +1,2 @@
 ls
-ls -a
+pwd
