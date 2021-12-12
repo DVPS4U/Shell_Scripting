@@ -8,13 +8,17 @@ a=100
 
 read -p "enter your age; " age
 
-if [ "${age}" -le 17 ]; then
+if [ ! -z "${age}" -a "${age}" -le 17 ]; then
 
   echo -e "\e[31m you are a minor \e[m"
 
-elif [ "${age}" -ge 60 ]; then
+elif [ ! -z "${age}" -a "${age}" -ge 60 ]; then
 
-echo -e "\e[32m you are a senior citizen \e[m"
+  echo -e "\e[32m you are a senior citizen \e[m"
+
+elif [ -z "${age}" ]; then
+
+  echo -e "\e[31m INVALID INPUT \e[m"
 
 else
 
