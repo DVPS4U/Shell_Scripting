@@ -14,7 +14,7 @@ if [ "${age}" -le 17 ]; then
 
 elif [ "${age}" -ge 60 ]; then
 
-echo -e "\e[32m you are old citizen \e[m"
+echo -e "\e[32m you are a senior citizen \e[m"
 
 else
 
