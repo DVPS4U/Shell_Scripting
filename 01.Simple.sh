@@ -10,15 +10,15 @@ read -p "enter your age; " age
 
 if [ "${age}" -le 17 ]; then
 
-  echo "-e /e[31m you are a minor /e[m"
+  echo "-e \e[31m you are a minor \e[m"
 
 elif [ "${age}" -ge 60 ]; then
 
-echo "-e /e[31m you are old citizen /e[m"
+echo "-e \e[32m you are old citizen \e[m"
 
 else
 
-  echo "-e /e[31m you are a major /e[m"
+  echo "-e \e[33m you are a major \e[m"
 
 fi
 
