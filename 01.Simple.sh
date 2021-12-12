@@ -6,7 +6,7 @@ a=100
 
 #echo -e "\e[31m Hello world \e[m"
 
-read -p "enter your age" ; age
+read -p "enter your age; " age
 
 if [ "${age}" -le 17 ]; then
 
